@@ -1,0 +1,79 @@
+/*csss de la carde acceuil */
+.card-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #333;
+}
+/*b*/
+/* Style de base pour un lien */
+a {
+    text-decoration: none; /* Supprime le soulignement par défaut du lien */
+    transition: color 0.3s; /* Animation de transition pour la couleur du texte */
+}
+a:hover {
+    color: #0056b3; /* Couleur du texte du lien au survol */
+}
+
+/* Style d'un lien visité */
+a:visited {
+    color: #6c757d; /* Couleur du texte du lien pour les liens déjà visités */
+}
+.button-container {
+    margin-bottom: 20px;
+}
+
+.add-button, .delete-button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.add-button{
+    background-color: green;
+    color: white;
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+}
