@@ -80,8 +80,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Exécution de la requête
         $stmt->execute();
-
-        echo "L'idée a été ajoutée avec succès.";  
+        header('Location: accueil.php');
+        //echo "L'idée a été ajoutée avec succès.";  
         
     } catch (PDOException $e) {
         echo "Connexion échouée : " . $e->getMessage();

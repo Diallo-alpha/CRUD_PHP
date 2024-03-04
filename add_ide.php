@@ -28,7 +28,6 @@
                 $sql_categories = "SELECT * FROM categorie";
                 $stmt_categories = $conn->prepare($sql_categories);
                 $stmt_categories->execute();
-
                 // Génération des options du menu déroulant des catégories
                 // while($row = $stmt_categories->fetch(PDO::FETCH_ASSOC)){
                 //     echo '<option value="' .$row['libelle'] . '">' .$row['libelle'].'</option>';
